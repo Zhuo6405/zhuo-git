@@ -1,0 +1,79 @@
+.container{
+    background-color: darksalmon;
+    display: block;
+}
+.data{
+    font-size: 32pt;
+    font-family: "微軟正黑體";
+    border-radius: 30px;
+    width: auto;
+    /* background-color: aquamarine; */
+
+}
+.data1{
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 500px;
+}
+.data2{
+    background-color: rgb(145, 222, 114);
+    border-radius: 20px;
+    width: 400px;
+}
+.data3{
+    background-color: rgb(215, 133, 196);
+    border-radius: 20px;
+    width: 400px;
+}
+.data4{
+    background-color: rgb(234, 153, 99);
+    border-radius: 20px;
+    width: auto;
+    width: 400px;
+}
+.data5{
+    background-color: rgb(2, 74, 50);
+    border-radius: 20px;
+    width: auto;
+    width: 400px;
+}
+.data6{
+    background-color: rgb(75, 42, 128);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
+.data7{
+    background-color: rgb(17, 183, 61);
+    border-radius: 20px;
+    width: auto;width: 800px;
+}
+.data8{
+    background-color: rgb(195, 37, 87);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
+.data9{
+    background-color: rgb(144, 197, 11);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
+.data11{
+    background-color: rgb(250, 12, 167);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
+.data12{
+    background-color: rgb(175, 241, 239);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
+.data13{
+    background-color: rgb(254, 253, 255);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
+.data14{
+    background-color: rgb(74, 120, 115);
+    border-radius: 20px;
+    width: auto;width: 400px;
+}
