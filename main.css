@@ -1,79 +1,123 @@
+
 .container{
+    
     background-color: darksalmon;
-    display: block;
+    display: grid;
+    
+    grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;
+    height: 400px;
+    
 }
 .data{
-    font-size: 32pt;
+    font-size: 24pt;
     font-family: "微軟正黑體";
     border-radius: 30px;
-    width: auto;
-    /* background-color: aquamarine; */
+    
 
 }
-.data1{
-    background-color: aquamarine;
+.dataBase{
+    background-color: rgb(228, 251, 152);
     border-radius: 20px;
-    width: 500px;
+    grid-row: 1/3;
+    grid-column: 1/8;
+}
+.area{
+    background-color: rgb(108, 194, 231);
+    border-radius: 20px;
+    grid-row: 1/3;
+    grid-column: 8/11;
+}
+.data1{
+    background-color: rgb(124, 242, 203);
+    border-radius: 20px;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    /* width: 500px; */
 }
 .data2{
     background-color: rgb(145, 222, 114);
     border-radius: 20px;
-    width: 400px;
+    grid-row: 3/4;
+    grid-column: 4/6;
+    /* width: 400px; */
 }
 .data3{
     background-color: rgb(215, 133, 196);
     border-radius: 20px;
-    width: 400px;
+    grid-row: 3/4;
+    grid-column: 6/9;
+    /* width: 400px; */
 }
 .data4{
-    background-color: rgb(234, 153, 99);
+    background-color: rgb(251, 159, 235);
     border-radius: 20px;
     width: auto;
-    width: 400px;
+    grid-row: 3/4;
+    grid-column: 9/12;
+    /* width: 400px; */
 }
 .data5{
-    background-color: rgb(2, 74, 50);
+    background-color: rgb(246, 133, 133);
     border-radius: 20px;
     width: auto;
-    width: 400px;
+    grid-row: 4/5;
+    grid-column: 1/4;
+    /* width: 400px; */
 }
 .data6{
-    background-color: rgb(75, 42, 128);
+    background-color: rgb(176, 134, 244);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 4/5;
+    grid-column: 4/7;
+    /* width: auto;width: 400px; */
 }
 .data7{
     background-color: rgb(17, 183, 61);
     border-radius: 20px;
-    width: auto;width: 800px;
+    grid-row: 4/5;
+    grid-column: 7/11;
+    /* width: auto;width: 800px; */
 }
 .data8{
     background-color: rgb(195, 37, 87);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 4/5;
+    grid-column: 11/14;
+    /* width: auto;width: 400px; */
 }
 .data9{
     background-color: rgb(144, 197, 11);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 5/6;
+    grid-column: 1/4;
+    /* width: auto;width: 400px; */
 }
 .data11{
     background-color: rgb(250, 12, 167);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 5/6;
+    grid-column: 4/7;
+    /* width: auto;width: 400px; */
 }
 .data12{
     background-color: rgb(175, 241, 239);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 5/6;
+    grid-column: 7/9;
+    /* width: auto;width: 400px; */
 }
 .data13{
     background-color: rgb(254, 253, 255);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 5/6;
+    grid-column: 9/13;
+    /* width: auto;width: 400px; */
 }
 .data14{
     background-color: rgb(74, 120, 115);
     border-radius: 20px;
-    width: auto;width: 400px;
+    grid-row: 1/3;
+    grid-column: 11/14;
+    /* width: auto;width: 400px; */
 }
