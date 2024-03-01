@@ -1,7 +1,7 @@
 let weatherData;
 let c=5;
 let i=0,j=0;
-$.get(`https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-007?Authorization=CWA-A01AE06E-1FB1-46A4-A1AB-7FCD7CD76C29&format=JSON`,function (data){
+$.get(`https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-D0047-091?Authorization=CWA-A01AE06E-1FB1-46A4-A1AB-7FCD7CD76C29&format=JSON`,function (data){
     weatherData=data;
     console.log(data);
     let city = weatherData.records.locations[0].locationsName;
